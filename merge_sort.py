@@ -1,16 +1,15 @@
-def mergeSort(data):
+def merge_sort(data):
+    items_length = len(data)
 
-    itemsLength = len(data)
-
-    if itemsLength == 1:
+    if items_length == 1:
         return data
-    elif itemsLength == 2:
+    elif items_length == 2:
         return data if data[0] <= data[1] else list(reversed(data))
 
-    middle = int(itemsLength / 2)
+    middle = int(items_length / 2)
 
-    left = mergeSort(data[:middle])
-    right = mergeSort(data[middle:])
+    left = merge_sort(data[:middle])
+    right = merge_sort(data[middle:])
 
     result = []
     j = 0
