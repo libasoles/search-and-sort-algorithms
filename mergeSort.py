@@ -1,6 +1,3 @@
-
-unsortedData = [15, 3, 29, 43, 54, 12, 16, 10, 8, 45, 99, 32, 75]
-
 def mergeSort(data):
 
     itemsLength = len(data)
@@ -26,6 +23,3 @@ def mergeSort(data):
     if j < len(right):
         result.extend(right[j:])
     return result
-
-result = mergeSort(unsortedData)
-print("FINAL RESULT", result)
