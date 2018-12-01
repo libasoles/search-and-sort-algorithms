@@ -13,7 +13,7 @@ def merge_sort(data):
 
     result = []
     j = 0
-    for i,value in enumerate(left):
+    for i, value in enumerate(left):
         while len(right) > j and right[j] <= left[i]:
             result.append(right[j])
             j += 1
