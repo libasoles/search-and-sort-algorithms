@@ -5,7 +5,7 @@ def binary_search(data, target):
     sample = data[middle]
 
     if items_length == 1:
-        return False
+        return -1
 
     if sample == target:
         return target
@@ -15,4 +15,4 @@ def binary_search(data, target):
     if target > sample:
         return binary_search(data[middle:], target)
 
-    return False
+    return -1
