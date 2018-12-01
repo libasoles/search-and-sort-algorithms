@@ -1,4 +1,4 @@
-from binary_search import binary_search
+from ..binary_search import binary_search
 
 
 def test_should_find_a_result_in_a_tiny_array():

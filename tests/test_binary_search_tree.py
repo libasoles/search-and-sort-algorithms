@@ -1,4 +1,4 @@
-from binary_search_tree import Tree
+from ..binary_search_tree import Tree
 
 
 def test_binary_search_tree_sort():

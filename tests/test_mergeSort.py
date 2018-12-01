@@ -1,4 +1,4 @@
-from merge_sort import merge_sort
+from ..merge_sort import merge_sort
 
 
 def test_should_sort_an_unsorted_list():
