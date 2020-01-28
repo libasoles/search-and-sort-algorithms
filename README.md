@@ -1,11 +1,17 @@
 # What is it
 
-I'm implementing search and sort algorithms using python.
+Python implementation of search and sort algorithms, and data structures.
 
 All functions have basic test coverage.
 
-I'm aware that performance could be improved. But this is what I came up with.
+## Testing
 
-This is my first time with python, btw.
+### Test libraries installation 
 
-Feel free to comment.
+`pip3 install pipenv`
+
+`pipenv install`
+
+### Running Tests
+
+`pipenv run pytest-watch`
