@@ -1,4 +1,4 @@
-from ..insertion_sort import insertion_sort
+from algorythms.insertion_sort import insertion_sort
 
 
 def test_should_sort_a_tiny_list():
