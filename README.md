@@ -6,7 +6,7 @@ All functions have basic test coverage.
 
 ## Testing
 
-### Test libraries installation 
+### Test libraries installation
 
 `pip3 install pipenv`
 
